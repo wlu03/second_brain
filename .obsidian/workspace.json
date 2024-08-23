@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 2200/Introduction.md",
+                "file": "CS 3510/Divide and Conquer Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db415fa386662373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 3510/Big-O Notation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 2200/Introduction.md",
+                "file": "CS 3510/Big-O Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 2200/Introduction.md",
+                "file": "CS 3510/Big-O Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 2200/Introduction.md"
+                "file": "CS 3510/Big-O Notation.md"
               }
             }
           }
@@ -146,10 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "734939b9740a8600",
+  "active": "db415fa386662373",
   "lastOpenFiles": [
+    "CS 3510/Dynamic Programming Analysis.md",
+    "CS 3510/NP Completeness Analysis.md",
+    "CS 3510/Divide and Conquer Analysis.md",
+    "CS 3510/Fibonacci Sequence.md",
+    "CS 3510/Big-O Notation.md",
+    "CS 3510/Graph Algorithm Analysis.md",
+    "CS 2200/Introduction.md",
+    "CS 3510",
     "CS 2200/Table of Content.md",
-    "CS 2200/Processor Architecture.md",
-    "CS 2200/Introduction.md"
+    "CS 2200/Processor Architecture.md"
   ]
 }
