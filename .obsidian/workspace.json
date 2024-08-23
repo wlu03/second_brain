@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 2200/Introduction.md",
+                "file": "CS 2200/2024-08-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 2200/Introduction.md",
+                "file": "CS 2200/2024-08-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 2200/Introduction.md",
+                "file": "CS 2200/2024-08-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 2200/Introduction.md"
+                "file": "CS 2200/2024-08-22.md"
               }
             }
           }
@@ -148,8 +148,19 @@
   },
   "active": "734939b9740a8600",
   "lastOpenFiles": [
-    "CS 2200/Table of Content.md",
+    "Pasted image 20240822084433.png",
+    "Pasted image 20240822084030.png",
+    "CS 2200/Array Operands.png",
+    "CS 2200/Introduction.md",
     "CS 2200/Processor Architecture.md",
-    "CS 2200/Introduction.md"
+    "CS 2200/Operand Alignment.png",
+    "CS 2200/Structs in HLLs.png",
+    "CS 2200/Structs in HLLs 2.png",
+    "CS 2200/Table of Content.md",
+    "README.md",
+    "Pasted image 20240822083725.png",
+    "CS 2200/2024-08-22.md",
+    "Pasted image 20240822083950.png",
+    "o.md"
   ]
 }

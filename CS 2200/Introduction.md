@@ -1,6 +1,9 @@
-# Parts of the Computer
+## Parts of the Computer
 ____
-**Processor**: The central processing unit or CPU
-**Memory Subsystem**: 
-**Peripherals**: Devices connected to the computer such as keyboard, monitor, and network interface.
-**System Software**: Software allowing users to access the application level (OS, Compiler, and Runtime Systems)
+**Processor**: The central processing unit or CPU. **Memory Subsystem**: is a collection of memory management components and type of memory that are used to transfer large amount of data. **Peripherals**: Devices connected to the computer such as keyboard, monitor, and network interface. **System Software**: Software allowing users to access the application level (OS, Compiler, and Runtime Systems). There are one or more central processing units, memory, and input/output device. Memory holds any program that the programmer wants to execute on the CPU. The OS which is also a program executes on the CPU that the user wants the computer system to carry out. For example, when a user clicks on an application, the operating system knows to open up the program to display on your monitor. The **controller** interrupts the processor. 
+## Abstraction
+____
+At the lowest level of abstraction hierarchy, the electrons and holes that make up the semiconductor substrate. The transitions are bring order to electrons and holes. Logical gates are brought together using logic and transistors. Combinational and sequential logic elements are made up of logic gates and organized into a data-path. A finite state machine controls the data path and implements the instructions in the architecture of the processor. The instruction set is the meeting point of hardware and software. 
+## Role of Operating System
+____
+The operating system is responsible for orchestrating the use of the hardware resource for the design and game playing. The operating system (OS) allows users to interact with their computer acting as a mediator between the user and the computer's hardware. 
