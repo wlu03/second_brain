@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 3510/Divide and Conquer Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db415fa386662373",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS 3510/Big-O Notation.md",
+                "file": "CS 2200/Compiling Function Calls.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 3510/Big-O Notation.md",
+                "file": "CS 2200/Compiling Function Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 3510/Big-O Notation.md",
+                "file": "CS 2200/Compiling Function Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 3510/Big-O Notation.md"
+                "file": "CS 2200/Compiling Function Calls.md"
               }
             }
           }
@@ -159,29 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db415fa386662373",
+  "active": "734939b9740a8600",
   "lastOpenFiles": [
-    "CS 2200/Big or Little Endian.png",
-    "Big or Little Endian.png",
-    "CS 2200/Little Endian.png",
-    "Little Endian.png",
-    "CS 2200/Big Endian.png",
-    "Big Endian.png",
+    "CS 2200/Instruction Set.md",
+    "CS 2200/Compiling Function Calls.md",
+    "CS 2200/Conditional Statements in Architecture.md",
+    "CS 2200/Program Counter (PC).md",
+    "CS 2200/Addressing Mode.md",
+    "CS 2200/Arrays in Architecture.md",
+    "CS 2200/2024-08-22.md",
+    "CS 2200/Endianness.md",
+    "CS 2200/Load and Store.md",
+    "CS 2200/Operand Alignment.md",
+    "Untitled.canvas",
     "CS 2200/Endiness.png",
-    "Endiness.png",
+    "CS 2200/Operands.md",
+    "CS 2200/Processor Architecture.md",
+    "CS 2200/Table of Content.md",
+    "CS 2200/Introduction.md",
+    "CS 2200/Binary Numbers.md",
+    "CS 2200/Two's Complement.md",
+    "Pasted image 20240825181228.png",
+    "CS 2200/Big or Little Endian.png",
+    "CS 2200/Big Endian.png",
+    "CS 2200/Array Operands.png",
+    "MATH 4802/Math Induction on Strings.md",
+    "CS 3510/NP Completeness Analysis.md",
+    "CS 3510/Graph Algorithm Analysis.md",
+    "CS 3510/Fibonacci Sequence.md",
+    "CS 3510/Dynamic Programming Analysis.md",
+    "CS 3510/Divide and Conquer Analysis.md",
+    "CS 3510/Big-O Notation.md",
+    "CS 2200/Little Endian.png",
     "Pasted image 20240822084433.png",
     "Pasted image 20240822084030.png",
-    "Pasted image 20240822083950.png",
-    "CS 2200/2024-08-22.md",
-    "CS 3510/Dynamic Programming Analysis.md",
-    "CS 3510/NP Completeness Analysis.md",
-    "CS 3510/Divide and Conquer Analysis.md",
-    "CS 3510/Fibonacci Sequence.md",
-    "CS 3510/Big-O Notation.md",
-    "CS 3510/Graph Algorithm Analysis.md",
-    "CS 2200/Introduction.md",
-    "CS 3510",
-    "CS 2200/Table of Content.md",
-    "CS 2200/Processor Architecture.md"
+    "CS 2200/Operand Alignment.png",
+    "CS 2200/Structs in HLLs.png",
+    "README.md",
+    "o.md"
   ]
 }
