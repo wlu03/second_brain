@@ -3,7 +3,7 @@
 ### CS 3510 - Design and Analysis of Algorithms
 **Book:** _Algorithms_ by S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani
 
-### MATH 2106 - Foundations of Mathematical Proofs
+### CS 4641 - Machine Learning
 
 ### MATH 4802 - Mathematical Problem Solving
 **Book:** _Putnam and Beyond_

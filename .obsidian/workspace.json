@@ -148,6 +148,9 @@
   },
   "active": "734939b9740a8600",
   "lastOpenFiles": [
+    "Puzzles and Problems/Kolmogorov's Zero-One Law.md",
+    "Puzzles and Problems/August 2024 - Percolation Threshold.md",
+    "Puzzles and Problems",
     "CS 2200/Instruction Set.md",
     "CS 2200/Compiling Function Calls.md",
     "CS 2200/Conditional Statements in Architecture.md",
@@ -182,7 +185,6 @@
     "Pasted image 20240822084030.png",
     "CS 2200/Operand Alignment.png",
     "CS 2200/Structs in HLLs.png",
-    "README.md",
-    "o.md"
+    "README.md"
   ]
 }
