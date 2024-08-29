@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2a6d69a958a0b5db",
+        "id": "6d62e9b6aa307e24",
         "type": "tabs",
         "children": [
           {
-            "id": "734939b9740a8600",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS 3510/Divide and Conquer Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db415fa386662373",
+            "id": "c1c828de019419d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 261.5
   },
   "right": {
     "id": "21a692b04967b30f",
@@ -159,8 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db415fa386662373",
+  "active": "c1c828de019419d9",
   "lastOpenFiles": [
+    "CS 3510/Big-O Notation.md",
+    "CS 3510/Big-O Notation Practice 1.png",
+    "Untitled.md",
+    "CS 3510/Divide and Conquer Analysis.md",
+    "Puzzles and Problems/August 2024 - Percolation Threshold.md",
+    "Puzzles and Problems/Kolmogorov's Zero-One Law.md",
+    "Puzzles and Problems",
+    "untitled folder",
     "CS 2200/Big or Little Endian.png",
     "Big or Little Endian.png",
     "CS 2200/Little Endian.png",
@@ -170,14 +165,10 @@
     "CS 2200/Endiness.png",
     "Endiness.png",
     "Pasted image 20240822084433.png",
-    "Pasted image 20240822084030.png",
-    "Pasted image 20240822083950.png",
     "CS 2200/2024-08-22.md",
     "CS 3510/Dynamic Programming Analysis.md",
     "CS 3510/NP Completeness Analysis.md",
-    "CS 3510/Divide and Conquer Analysis.md",
     "CS 3510/Fibonacci Sequence.md",
-    "CS 3510/Big-O Notation.md",
     "CS 3510/Graph Algorithm Analysis.md",
     "CS 2200/Introduction.md",
     "CS 3510",
