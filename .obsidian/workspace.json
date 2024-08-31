@@ -159,6 +159,20 @@
   },
   "active": "9beeaecb36f6264b",
   "lastOpenFiles": [
+    "MATH 4802/Math Induction on Strings.md",
+    "MATH 4802",
+    "CS 2200/Two's Complement.md",
+    "CS 2200/Program Counter (PC).md",
+    "CS 2200/Operands.md",
+    "CS 2200/Operand Alignment.md",
+    "CS 2200/Load and Store.md",
+    "CS 2200/Instruction Set.md",
+    "CS 2200/Endianness.md",
+    "CS 2200/Conditional Statements in Architecture.md",
+    "CS 2200/Compiling Function Calls.md",
+    "CS 2200/Binary Numbers.md",
+    "CS 2200/Arrays in Architecture.md",
+    "CS 2200/Addressing Mode.md",
     "CS 3510/Divide and Conquer Algorithms.md",
     "CS 3510/Medians.md",
     "CS 3510/Merge Sort.md",
@@ -185,13 +199,6 @@
     "CS 2200/Little Endian.png",
     "Little Endian.png",
     "CS 2200/Big Endian.png",
-    "CS 2200/2024-08-22.md",
-    "CS 3510/Dynamic Programming Analysis.md",
-    "CS 3510/NP Completeness Analysis.md",
-    "CS 3510/Graph Algorithm Analysis.md",
-    "CS 2200/Introduction.md",
-    "CS 3510",
-    "CS 2200/Table of Content.md",
-    "CS 2200/Processor Architecture.md"
+    "CS 3510"
   ]
 }
