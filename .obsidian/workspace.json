@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 3510/Big-O Notation.md",
+                "file": "CS 3510/Multiplication.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "9beeaecb36f6264b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 200
   },
   "right": {
     "id": "21a692b04967b30f",
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 3510/Big-O Notation.md",
+                "file": "CS 3510/Multiplication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 3510/Big-O Notation.md",
+                "file": "CS 3510/Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 3510/Big-O Notation.md"
+                "file": "CS 3510/Multiplication.md"
               }
             }
           }
@@ -146,12 +157,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1c828de019419d9",
+  "active": "9beeaecb36f6264b",
   "lastOpenFiles": [
+    "CS 3510/Divide and Conquer Algorithms.md",
+    "CS 3510/Medians.md",
+    "CS 3510/Merge Sort.md",
+    "CS 3510/Merge Sort.png",
+    "CS 3510/Merge Sort 2.png",
+    "Untitled.canvas",
+    "2024-08-31.md",
+    "CS 3510/Fibonacci Sequence.md",
     "CS 3510/Big-O Notation.md",
+    "CS 3510/Recurrence Relations.md",
+    "CS 3510/Master Theorem.md",
+    "CS 3510/Matrix Multiplication.md",
+    "CS 3510/Master Theorem.png",
+    "CS 3510/Recurrence Relation.png",
+    "CS 3510/Multiplication.md",
     "CS 3510/Big-O Notation Practice 1.png",
     "Untitled.md",
-    "CS 3510/Divide and Conquer Analysis.md",
     "Puzzles and Problems/August 2024 - Percolation Threshold.md",
     "Puzzles and Problems/Kolmogorov's Zero-One Law.md",
     "Puzzles and Problems",
@@ -161,14 +185,9 @@
     "CS 2200/Little Endian.png",
     "Little Endian.png",
     "CS 2200/Big Endian.png",
-    "Big Endian.png",
-    "CS 2200/Endiness.png",
-    "Endiness.png",
-    "Pasted image 20240822084433.png",
     "CS 2200/2024-08-22.md",
     "CS 3510/Dynamic Programming Analysis.md",
     "CS 3510/NP Completeness Analysis.md",
-    "CS 3510/Fibonacci Sequence.md",
     "CS 3510/Graph Algorithm Analysis.md",
     "CS 2200/Introduction.md",
     "CS 3510",

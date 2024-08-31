@@ -15,7 +15,7 @@ For the analogs of $\ge$, $f=\Omega (g)$ means $g=O(f)$. This means $g$ grows at
 
 # General Rule
 ___
-$O(1)<O(\log n)<O(n)<O(n\log n)<O(n^2)<O(n^3)<O(2^n)<O(N!)$
+$O(1)<O(\log^\beta n)<O(n^{\alpha})<O(n^{\alpha}\log^\beta n)<O(n^{\beta})<O(2^n)<O(N!)$
 
 ## Practice Problems
 ____
