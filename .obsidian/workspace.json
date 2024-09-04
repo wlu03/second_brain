@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIP/Genetic Programming.md",
+                "file": "CS 2200/Table of Content.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIP/Genetic Programming.md",
+                "file": "CS 2200/Table of Content.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIP/Genetic Programming.md",
+                "file": "CS 2200/Table of Content.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIP/Genetic Programming.md"
+                "file": "CS 2200/Table of Content.md"
               }
             }
           }
@@ -148,52 +148,51 @@
   },
   "active": "b3695091837b95ae",
   "lastOpenFiles": [
-    "VIP/Genetic Programming.md",
-    "VIP",
-    "CS 3510/Big-O Notation.md",
-    "CS 3510/Problem Sets/Homework1.pdf",
-    "CS 3510/Problem Sets/CS3510_1.pdf",
-    "CS 3510/Graph Algorithm Analysis.md",
-    "CS 3510/Master Theorem.png",
-    "CS 3510/Matrix Multiplication.md",
-    "CS 3510/Medians.md",
-    "CS 3510/Merge Sort.md",
-    "CS 3510/Merge Sort.png",
-    "CS 3510/Merge Sort 2.png",
+    "CS 3510/Closest Pair of Points.md",
+    "CS 3510/Divide and Conquer Algorithm.md",
+    "CS 3510/Closest Pair Figure 4.png",
+    "CS 3510/Screenshot 2024-09-03 at 10.40.03 PM.png",
+    "CS 3510/Closest Pair Figure 4.png",
+    "CS 3510/Closest Pair Figure 3.png",
+    "CS 3510/Closest Pair Figure 2.png",
+    "CS 3510/Closest Pair Figure 1.png",
+    "CS 3510/Dynamic Programming Analysis.md",
+    "MATH 4802/Algebra.md",
+    "Untitled",
+    "CS 3510/Median.md",
     "CS 3510/Multiplication.md",
+    "CS 3510/Matrix Multiplication.md",
+    "VIP/Genetic Algorithm.md",
+    "VIP/StringExample.py",
+    "VIP/Genetic Programming.md",
+    "CS 4641/Probability and Statistics Review for ML.md",
+    "CS 4641/Probability and Statistics Table.png",
+    "CS 4641/Discrete Probability Functions.png",
+    "CS 4641/Continuous Probability Functions.png",
+    "CS 4641/Linear Algebra Review for ML.md",
+    "CS 4641/Eigenvalue.png",
+    "CS 4641.md",
+    "CS 4641",
+    "VIP/Lab Files/Preprocessing Data.ipynb",
+    "VIP/Lab Files/Object Detection.ipynb",
+    "VIP/Lab Files/Lab 2 - Genetic Programming and Multi-Objective Optimization (1).ipynb",
+    "VIP/Lab Files/Lab 1 - Genetic Algorithms with DEAP (1).ipynb",
+    "VIP/Preprocessing Data.ipynb",
+    "VIP/Object Detection.ipynb",
+    "VIP/Lab 2 - Genetic Programming and Multi-Objective Optimization (1).ipynb",
+    "CS 3510/Big-O Notation.md",
+    "CS 3510/Graph Algorithm Analysis.md",
+    "CS 3510/Merge Sort.md",
     "CS 3510/NP Completeness Analysis.md",
-    "CS 3510/Recurrence Relation.png",
     "CS 3510/Recurrence Relations.md",
     "CS 3510/Master Theorem.md",
-    "CS 3510/Dynamic Programming Analysis.md",
-    "CS 3510/Problem Sets/Homework_1.pdf",
-    "CS 3510/Problem Sets/Homework_1/CS3510_HW1.tex",
-    "CS 3510/Problem Sets/Homework_1/CS3510_HW1.pdf",
-    "CS 3510/Problem Sets/Homework_1",
-    "CS 3510/Problem Sets/Homework_1.zip",
-    "CS 3510/Problem Sets/Master Theorem Problems.pdf",
-    "CS 3510/Problem Sets/CS3510_Homework_1.zip",
     "CS 3510/Fibonacci Sequence.md",
-    "CS 3510/Divide and Conquer Algorithms.md",
     "MATH 4802/Math Induction on Strings.md",
     "CS 2200/Two's Complement.md",
     "CS 2200/Program Counter (PC).md",
     "CS 2200/Operands.md",
     "CS 2200/Operand Alignment.md",
     "CS 2200/Load and Store.md",
-    "CS 2200/Instruction Set.md",
-    "CS 2200/Endianness.md",
-    "CS 2200/Conditional Statements in Architecture.md",
-    "CS 2200/Compiling Function Calls.md",
-    "CS 2200/Binary Numbers.md",
-    "CS 2200/Arrays in Architecture.md",
-    "CS 2200/Addressing Mode.md",
-    "Untitled.canvas",
-    "CS 3510/Big-O Notation Practice 1.png",
-    "CS 2200/Big or Little Endian.png",
-    "Big or Little Endian.png",
-    "CS 2200/Little Endian.png",
-    "Little Endian.png",
-    "CS 2200/Big Endian.png"
+    "Untitled.canvas"
   ]
 }

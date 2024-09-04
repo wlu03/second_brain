@@ -1,0 +1,113 @@
+---
+title: "ISYE 3770 Homework 1"
+author: "Wesley Lu"
+date: "2024-09-03"
+output: pdf_document
+---
+
+## Problem 1 (25 points)
+
+Given \(P(A) = 0.3\), \(P(B) = 0.2\), and \(P(A \cap B) = 0.1\), determine the following probabilities:
+
+### (a) \( P(\overline{A}) \)
+\[
+P(\overline{A}) = 1 - P(A) = 1 - 0.3 = 0.7
+\]
+
+### (b) \( P(A \cup B) \)
+\[
+P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.3 + 0.2 - 0.1 = 0.4
+\]
+
+### (c) \( P(\overline{A} \cap B) \)
+\[
+P(\overline{A} \cap B) = P(B) - P(A \cap B) = 0.2 - 0.1 = 0.1
+\]
+
+### (d) \( P(A \cap \overline{B}) \)
+\[
+P(A \cap \overline{B}) = P(A) - P(A \cap B) = 0.3 - 0.1 = 0.2
+\]
+
+### (e) \( P(\overline{A \cup B}) \)
+\[
+P(\overline{A \cup B}) = 1 - P(A \cup B) = 1 - 0.4 = 0.6
+\]
+
+### (f) \( P(\overline{A} \cup B)  \)
+\[
+P(\overline{A} \cup B)= P(\overline{A}) + P(A \cap B) = 0.7 + 0.1 = 0.8
+\]
+
+## Problem 2 (20 points)
+
+A bin of 50 parts contains 5 that are defective. A sample of 10 parts is selected at random, without replacement
+
+### (a) How many different samples of size 10 are there that contain at least four defective parts?
+\[
+\text{Number of samples} = \binom{5}{4} \binom{45}{6} + \binom{5}{5} \binom{45}{5} = 5 \times 8145060 + 1 \times 1221759 = 41,947,059
+\]
+
+### (b) How many ways to obtain a sample of 10 parts from the bin of 50?
+\[
+\text{Number of ways} = \binom{50}{10} = 10,272,278,170
+\]
+
+### (c) What is the probability of obtaining at least four defectives in a sample of 10 parts?
+\[
+\text{Probability} = \frac{41,947,059}{10,272,278,170} \approx 0.004083
+\]
+
+## Problem 3 (15 points)
+
+How many 4-letter words can be formed from the alphabet if we require:
+
+### (a) The 2nd letter to be a vowel (a, e, i, o, u)?
+\[
+5 \times 26^3 = 87,880
+\]
+
+### (b) Exactly one vowel?
+\[
+4 \times 5 \times 21^3 = 4 \times 5 \times 9261 = 1,852,200
+\]
+
+### (c) At least one vowel?
+\[
+\text{Total words} - \text{Words with no vowel} = 26^4 - 21^4 = 456,976 - 194,481 = 262,495
+\]
+
+## Problem 4 (16 points)
+
+In the layout of a printed circuit board for an electronic product, 12 different locations can accommodate chips.
+
+### (a) If five different types of chips are to be placed on the board, how many different layouts are possible? 
+\[
+P(12, 5) = \frac{12!}{(12-5)!} = 95,040
+\]
+
+### (b) If the five chips that are placed on the board are of the same type, how many different layouts are possible? 
+\[
+\binom{12}{5} = 792
+\]
+
+## Problem 5 (24 points)
+
+In a chemical plant, 24 holding tanks are used for final product storage. Four tanks are selected at random and without replacement. Suppose that six of the tanks contain material in which the viscosity exceeds the customer requirements.
+
+### (a) What is the probability that exactly one tank in the sample contains high-viscosity material?
+\[
+\text{Probability} = \frac{\binom{18}{3} \times \binom{6}{1}}{\binom{24}{4}} = \frac{816 \times 6}{10,626} \approx 0.46
+\]
+
+### (b) What is the probability that at least one tank in the sample contains high-viscosity material?
+\[
+\text{Probability} = 1 - \frac{\binom{18}{4}}{\binom{24}{4}} = \frac{10,626 - 3,060}{10,626} \approx 0.712
+\]
+
+### (c) In addition to the six tanks with high viscosity levels, four different tanks contain material with high impurities. What is the probability that exactly one tank in the sample contains high-viscosity material and exactly one tank in the sample contains material with high impurities?
+\[
+\text{Probability} = \frac{\binom{6}{1} \times \binom{4}{1} \times \binom{14}{2}}{\binom{24}{4}} = \frac{6 \times 4 \times 91}{10,626} \approx 0.2055
+\]
+
+

@@ -2,6 +2,8 @@ Divide-and-conquer algorithms solves a problem by breaking it down into subprobl
 [[Multiplication]]
 [[Recurrence Relations]]
 [[Merge Sort]] 
-[[Medians]] 
+[[Median]] 
 [[Matrix Multiplication]] 
 [[Fast Fourier Transform]] 
+
+[[Closest Pair of Points]] 
