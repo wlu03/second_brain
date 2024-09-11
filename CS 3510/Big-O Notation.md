@@ -86,5 +86,6 @@ ____
 		$$\ge2^{0.5(k+2)}$$
 		Therefore by induction $F_n\ge 2^{0.5n}$ for $n\ge6$. 		
 	b. Find a constant $c<1$ such that $F_n \le 2^{cn}$ for all $n\ge0$. 
+		
 	c. What is the largest $c$ you. can find for which $F_n=\Omega (2^{cn})$?
 	   

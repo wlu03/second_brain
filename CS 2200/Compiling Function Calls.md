@@ -27,4 +27,16 @@ ___
 
 ## Stack
 ___
-Push: Decrements the stack pointer and places the value at the memory 
+1. Caller saves register t0-t3 on the stack
+2. Caller places the parameters in a0-a2 
+3. Caller allocates space for return values
+4. Caller saves previous return address from ra
+5. Caller executes JAL at, ra (doesn't affect stack) 
+6. Callee saves any of registers s0-s3 
+7. Callee allocates space for local variables
+![[Stack.png | 300]]
+
+Upon return all values are popped off. Each portion on that stack that is relevant to the current executing procedure is called the **activation record** for that procedure. An activation record is the communication area between the caller and the callee.
+![[Activation Record.png]]
+**Frame Pointer** contains the address of a known point in the activation record. The frame pointer contains the first address on the stack that pertains to the activation record of the called procedure and never changes while this procedure is in execution. If a procedure makes another call, then its frame pointer has to be saved and restored by the callee. 
+![[Frame Pointer.png]]
