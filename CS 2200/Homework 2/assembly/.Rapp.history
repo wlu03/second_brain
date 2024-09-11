@@ -1,0 +1,2 @@
+help.start()
+python3 assembler.py -i lc4000 hanoi.s --sym hanoi.sym --bin hanoi.bin

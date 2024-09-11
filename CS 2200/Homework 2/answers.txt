@@ -1,0 +1,29 @@
+CS 2200 Fall 2024
+Homework 2
+
+Name: Wesley Lu
+GT Username: wlu314
+
+Question 1
+----------
+lea	$at, return
+beq	$zero, $zero, jump
+
+return:
+	ra contains the address here
+
+
+
+
+
+jump:
+	my target address is here
+
+## I must replicate jalr where
+
+## RA <- PC + 1
+## PC <- AT
+
+## Idea: I can use a label for the return address and store using LEA. Then I must jump to
+## the AT, the target address. Assuming that the register t0 has the target address, I will
+## just use beq to jump to the target address or use a label to jump. 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "031b2c7f936fac27",
+        "id": "9c2dec11728cf2c9",
         "type": "tabs",
         "children": [
           {
-            "id": "b3695091837b95ae",
+            "id": "4c39e570a68b15c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 2200/Table of Content.md",
+                "file": "VIP/Multiple Objects in GA and GP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "21a692b04967b30f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 2200/Table of Content.md",
+                "file": "VIP/Multiple Objects in GA and GP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 2200/Table of Content.md",
+                "file": "VIP/Multiple Objects in GA and GP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 2200/Table of Content.md"
+                "file": "VIP/Multiple Objects in GA and GP.md"
               }
             }
           }
@@ -146,53 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3695091837b95ae",
+  "active": "4c39e570a68b15c9",
   "lastOpenFiles": [
+    "CS 2200/Homework 2/assembly/__pycache__/lc4000.cpython-311.pyc",
+    "CS 2200/Homework 2/assembly/mod.sym",
+    "CS 2200/Homework 2/assembly/mod.s",
+    "CS 2200/Homework 2/assembly/mod.bin",
+    "CS 2200/Homework 2/assembly/lc4000.py",
+    "CS 2200/Homework 2/assembly/lc4000-sim.py",
+    "CS 2200/Homework 2/assembly/hanoi.sym",
+    "CS 2200/Homework 2/assembly/hanoi.s",
+    "CS 2200/Homework 2/assembly/hanoi.bin",
+    "CS 2200/Homework 2/assembly/assembler.py",
+    "CS 2200/Homework 2/assembly/__pycache__",
+    "VIP/Multiple Objects in GA and GP Figure 1.png",
+    "VIP/Multiple Objects in GA and GP Figure 1 1.png",
+    "VIP/Multiple Objects in GA and GP.md",
+    "VIP/SPEA2.png",
+    "VIP/NSGA II.png",
+    "Crowding Distance.md",
+    "VIP/Multiple Objects in GA and GP Figure 5.png",
+    "VIP/Multiple Objects in GA and GP Figure 4.png",
+    "VIP/Multiple Objects in GA and GP Figure 3.png",
+    "VIP/Multiple Objects in GA and GP Figure 2.png",
+    "README.md",
+    "CS 2200/Big or Little Endian.png",
+    "CS 2200/Big Endian.png",
+    "CS 2200/2024-08-22.md",
+    "CS 2200/Processor Architecture.md",
+    "CS 2200/Table of Content.md",
+    "CS 2200/Addressing Mode.md",
+    "VIP/Genetic Programming.md",
+    "VIP/Genetic Algorithm.md",
     "CS 3510/Closest Pair of Points.md",
     "CS 3510/Divide and Conquer Algorithm.md",
-    "CS 3510/Closest Pair Figure 4.png",
-    "CS 3510/Screenshot 2024-09-03 at 10.40.03 PM.png",
-    "CS 3510/Closest Pair Figure 4.png",
-    "CS 3510/Closest Pair Figure 3.png",
-    "CS 3510/Closest Pair Figure 2.png",
-    "CS 3510/Closest Pair Figure 1.png",
     "CS 3510/Dynamic Programming Analysis.md",
     "MATH 4802/Algebra.md",
-    "Untitled",
     "CS 3510/Median.md",
     "CS 3510/Multiplication.md",
     "CS 3510/Matrix Multiplication.md",
-    "VIP/Genetic Algorithm.md",
-    "VIP/StringExample.py",
-    "VIP/Genetic Programming.md",
     "CS 4641/Probability and Statistics Review for ML.md",
-    "CS 4641/Probability and Statistics Table.png",
-    "CS 4641/Discrete Probability Functions.png",
-    "CS 4641/Continuous Probability Functions.png",
     "CS 4641/Linear Algebra Review for ML.md",
-    "CS 4641/Eigenvalue.png",
     "CS 4641.md",
-    "CS 4641",
-    "VIP/Lab Files/Preprocessing Data.ipynb",
-    "VIP/Lab Files/Object Detection.ipynb",
-    "VIP/Lab Files/Lab 2 - Genetic Programming and Multi-Objective Optimization (1).ipynb",
-    "VIP/Lab Files/Lab 1 - Genetic Algorithms with DEAP (1).ipynb",
-    "VIP/Preprocessing Data.ipynb",
-    "VIP/Object Detection.ipynb",
-    "VIP/Lab 2 - Genetic Programming and Multi-Objective Optimization (1).ipynb",
     "CS 3510/Big-O Notation.md",
     "CS 3510/Graph Algorithm Analysis.md",
     "CS 3510/Merge Sort.md",
     "CS 3510/NP Completeness Analysis.md",
     "CS 3510/Recurrence Relations.md",
     "CS 3510/Master Theorem.md",
-    "CS 3510/Fibonacci Sequence.md",
-    "MATH 4802/Math Induction on Strings.md",
-    "CS 2200/Two's Complement.md",
-    "CS 2200/Program Counter (PC).md",
-    "CS 2200/Operands.md",
-    "CS 2200/Operand Alignment.md",
-    "CS 2200/Load and Store.md",
     "Untitled.canvas"
   ]
 }
