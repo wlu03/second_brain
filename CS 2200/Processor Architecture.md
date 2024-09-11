@@ -1,4 +1,4 @@
-**Instruction Set** and the **Organization of the Machine** are two architectural issues around processor design. Programming languages exerts influence on the instruction set design. The constructs in high-level language such as assignment statements and expressions map to arithmetic and logic instructions and load/store instructions. High level languages support data abstraction that may require precision of operands and addressing modes in the instruction set. Conditional statements and looping constructs would require conditional and unconditional branching instructions.  **Applications** influence the instruction set design as well. 
+[[Instruction Set]] and the **Organization of the Machine** are two architectural issues around processor design. Programming languages exerts influence on the instruction set design. The constructs in high-level language such as assignment statements and expressions map to arithmetic and logic instructions and load/store instructions. High level languages support data abstraction that may require precision of operands and addressing modes in the instruction set. Conditional statements and looping constructs would require conditional and unconditional branching instructions.  **Applications** influence the instruction set design as well. 
 
 The **instruction set** is the prescription given by the computer architect as to the capabilities needed in the machines that should be made visible to the machine language programmer. Instruction set serves as a "contract" between the software and the actual hardware implementation. High level languages were developed such that the attention shifted from implementation feasibility to whether the instructions were actually useful (producing highly efficient code for programs).
 ## Hardware
@@ -66,3 +66,7 @@ NAND Rz, Rz, Rz;
 ADDI Rz, Rz, 1;
 ```
 [[Two's Complement]] is utilized to flip $R_z$ to a negative number. Addressing Mode refers to how the operands are specified in an instruction. The addressing mode is called **register addressing** since the operands are in registers. 
+
+## [[Compiling Function Calls]]
+____
+For example of a procedure call, the program is *main* and makes a call to function *foo*. The flow of control of the program is transferred to the entry point of the function. Exiting *foo* the flow of control returns to the statement following the call to *foo* in main. *Caller* is the entity that makes the procedure call (main) and *callee* is the procedure that is being called (foo). 

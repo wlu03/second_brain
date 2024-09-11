@@ -1,8 +1,5 @@
-**JAL**
-___
-$JAL \space r_{target}, r_{link}$
-- remember the return address in $r_{link}$ ->another of the processor registers to hold the return address
-- Set program counter to the value in $r_{target}$ (start address of the callee) -> holds the address of the target of subroutine call. 
-
-Returning from the procedure is straightforward since we have unconditional jump instruction
-$J \space r_{link}$
+For the instruction set, I'll specifically use the LC2200. The R-type instruction includes add and nand. The I-type instruction includes addi, lw, sw, and beq. The J-type instruction is jalr, and the O-type instruction is halt. Thus, totally LC-2200 has only 8 instructions.
+![[Instruction Set - R Type.png]]
+![[Instruction Set - I, J, O Type.png]]
+![[Instruction Set Description.png]]
+![[Register Set.png]]

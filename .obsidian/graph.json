@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 14069084
       }
+    },
+    {
+      "query": "path:VIP  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.436527648988752,
+  "scale": 0.521297739469984,
   "close": false
 }
