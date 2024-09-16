@@ -1,0 +1,2 @@
+Suppose that X is a random variable with mean $\mu$ and standard deviation $\sigma>0$. Then, the standardization of X is the random variable: $$Z =\frac{X-\mu}{\sigma}$$
+Then $Z$ has mean zero and standard deviation of 1. Standardization gives us the standard units for considering the shape of a probability density function. 
