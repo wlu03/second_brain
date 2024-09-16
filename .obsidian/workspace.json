@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5540f06bf9c1ae85",
+        "id": "276f081e68224275",
         "type": "tabs",
         "children": [
           {
-            "id": "43e403bf6c191c6b",
+            "id": "e05f9a777398fe99",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS 2200/Datapath and Control.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LC2200",
+                "query": "control signals",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "21a692b04967b30f",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS 2200/Datapath and Control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS 2200/Datapath and Control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS 2200/Datapath and Control.md"
+              }
             }
           }
         ]
@@ -138,54 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43e403bf6c191c6b",
+  "active": "e05f9a777398fe99",
   "lastOpenFiles": [
-    "Discrete Uniform.md",
-    "ISYE 3770/Distributions.md",
-    "ISYE 3770/Standard RV.md",
-    "ISYE 3770/Variance.md",
-    "VIP/Lab 1 Notes.md",
-    "CS 2200/Datapath and Control.md",
-    "CS 2200/Exam 1 Material.md",
+    "VIP/SPEA2.png",
+    "VIP/NSGA II.png",
     "VIP/Multiple Objects in GA and GP.md",
-    "CS 3510/Problem Sets/Heomwork2.pdf",
-    "CS 3510/Problem Sets/Exam 1 Review.md",
-    "CS 2200/lw4.png",
-    "CS 2200/lw1, lw2, & lw3.png",
-    "CS 2200/jalr2.png",
-    "CS 2200/jalr1.png",
-    "CS 2200/ifetch clone.png",
-    "CS 2200/beq4,5,6.png",
-    "CS 2200/beq1, beq2, beq3.png",
-    "CS 2200/add2 & add3.png",
-    "CS 2200/add1.png",
-    "CS 2200/Using IR bit field to specify register selection.png",
-    "CS 2200/Transistors.md",
-    "CS 2200/Sequential Logic.md",
-    "CS 2200/Logic Triggering.md",
-    "CS 2200/Datapath Practice Question.md",
-    "CS 2200/Combinational Logic.md",
-    "CS 2200/Homework 2/assembly/__pycache__/lc4000.cpython-311.pyc",
+    "VIP/Multiple Objects in GA and GP Figure 5.png",
+    "VIP/Multiple Objects in GA and GP Figure 4.png",
+    "VIP/Multiple Objects in GA and GP Figure 3.png",
+    "VIP/Multiple Objects in GA and GP Figure 2.png",
+    "VIP/Multiple Objects in GA and GP Figure 1.png",
+    "VIP/Lab Files/images/trees.png",
+    "VIP/Lab Files/images/queen.png",
+    "VIP/Lab Files/images/objects/618.7251038755561_765.5937475168066_1_1.png",
+    "VIP/Lab Files/images/objects/36.792646160398576_133.55204192885853_2_1.png",
+    "VIP/Lab Files/images/objects",
+    "VIP/Lab Files/images",
+    "VIP/Lab Files/datasets/winemag-data_first150k.csv",
+    "VIP/Lab Files/datasets",
+    "ISYE 3770/Variance.md",
+    "ISYE 3770/Standard RV.md",
+    "ISYE 3770/Distributions.md",
+    "Discrete Uniform.md",
+    "Crowding Distance.md",
+    "CS 2200/Homework 2/homework-2.pdf",
     "CS 2200/Homework 2/assembly/mod.sym",
     "CS 2200/Homework 2/assembly/mod.s",
     "CS 2200/Homework 2/assembly/mod.bin",
     "CS 2200/Homework 2/assembly/lc4000.py",
     "CS 2200/Homework 2/assembly/lc4000-sim.py",
-    "CS 2200/Homework 2/assembly/hanoi.sym",
-    "CS 2200/Homework 2/assembly/hanoi.s",
-    "CS 2200/Homework 2/assembly/hanoi.bin",
-    "Crowding Distance.md",
-    "README.md",
-    "CS 2200/2024-08-22.md",
-    "CS 2200/Processor Architecture.md",
-    "CS 2200/Table of Content.md",
-    "CS 2200/Addressing Mode.md",
-    "VIP/Genetic Programming.md",
-    "VIP/Genetic Algorithm.md",
+    "CS 3510/Problem Sets/Exam 1 Review.md",
     "CS 3510/Closest Pair of Points.md",
+    "CS 3510/Master Theorem.md",
     "CS 3510/Divide and Conquer Algorithm.md",
+    "CS 3510/Median.md",
+    "CS 3510/Recurrence Relations.md",
+    "CS 3510/Multiplication.md",
     "CS 3510/Dynamic Programming Analysis.md",
-    "MATH 4802/Algebra.md",
+    "CS 3510/Big-O Notation.md",
+    "CS 3510/Matrix Multiplication.md",
+    "CS 3510/Merge Sort.md",
+    "CS 2200/Exam 1 Material.md",
+    "CS 2200/Datapath and Control.md",
+    "CS 2200/Endianness.md",
+    "CS 2200/Instruction Set.md",
+    "CS 2200/2024-08-22.md",
+    "CS 2200/Operand Alignment.md",
+    "CS 2200/Logic Triggering.md",
+    "CS 2200/Table of Content.md",
     "Untitled.canvas"
   ]
 }
