@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS 2200/Datapath and Control.md",
+                "file": "CS 2200/Speedup.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS 2200/Datapath and Control.md",
+                "file": "CS 2200/Speedup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS 2200/Datapath and Control.md",
+                "file": "CS 2200/Speedup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS 2200/Datapath and Control.md"
+                "file": "CS 2200/Speedup.md"
               }
             }
           }
@@ -147,8 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e05f9a777398fe99",
+  "active": "2018d62dd27a44eb",
   "lastOpenFiles": [
+    "CS 2200/Execution Time.png",
+    "CS 2200/Summary of Metrics.png",
+    "CS 2200/Processor Speed.png",
+    "CS 3510/Closest Pair Figure 1.png",
+    "CS 2200/Speedup.md",
+    "CS 3510/Master Theorem.md",
+    "CS 3510/Graph Algorithm Analysis.md",
+    "CS 3510/Adjacency Matrix with Weights and Direction.png",
+    "CS 3510/Adjacency Matrix with Weights.png",
+    "CS 3510/Adjacency Matrix.png",
+    "CS 3510/Graphs Representation.png",
+    "Depth First Search Analysis.md",
+    "ISYE 3770/Probability.md",
+    "ISYE 3770/Basic Counting.md",
+    "ISYE 3770/Inclusion-Exclusion.png",
+    "ISYE 3770/Set Theory.md",
+    "ISYE 3770/Standard RV.md",
+    "CS 3510/Problem Sets/Homework2.pdf",
+    "CS 2200/Datapath and Control.md",
     "CS 2200/Projects/project-1/src/assembly/__pycache__/lc4000.cpython-311.pyc",
     "CS 2200/Projects/project-1/src/assembly/__pycache__/lc3300.cpython-311.pyc",
     "CS 2200/Projects/project-1/src/microcode/microcode.xlsx",
@@ -158,27 +176,15 @@
     "CS 2200/Projects/project-1/src/assembly/lc4000-sim.py",
     "CS 2200/Projects/project-1/src/assembly/assembler.py",
     "CS 2200/Projects/project-1/src/project-1.pdf",
-    "CS 2200/Projects/project-1/src/microcode",
-    "CS 2200/Projects/project-1/src/LC-4000.sim",
     "VIP/SPEA2.png",
     "VIP/NSGA II.png",
     "VIP/Multiple Objects in GA and GP.md",
-    "VIP/Multiple Objects in GA and GP Figure 5.png",
-    "VIP/Multiple Objects in GA and GP Figure 4.png",
-    "VIP/Multiple Objects in GA and GP Figure 3.png",
-    "VIP/Multiple Objects in GA and GP Figure 2.png",
-    "VIP/Multiple Objects in GA and GP Figure 1.png",
-    "VIP/Lab Files/images/trees.png",
-    "VIP/Lab Files/images/queen.png",
-    "VIP/Lab Files/images/objects/618.7251038755561_765.5937475168066_1_1.png",
     "ISYE 3770/Variance.md",
-    "ISYE 3770/Standard RV.md",
     "ISYE 3770/Distributions.md",
     "Discrete Uniform.md",
     "Crowding Distance.md",
     "CS 3510/Problem Sets/Exam 1 Review.md",
     "CS 3510/Closest Pair of Points.md",
-    "CS 3510/Master Theorem.md",
     "CS 3510/Divide and Conquer Algorithm.md",
     "CS 3510/Median.md",
     "CS 3510/Recurrence Relations.md",
@@ -188,13 +194,6 @@
     "CS 3510/Matrix Multiplication.md",
     "CS 3510/Merge Sort.md",
     "CS 2200/Exam 1 Material.md",
-    "CS 2200/Datapath and Control.md",
-    "CS 2200/Endianness.md",
-    "CS 2200/Instruction Set.md",
-    "CS 2200/2024-08-22.md",
-    "CS 2200/Operand Alignment.md",
-    "CS 2200/Logic Triggering.md",
-    "CS 2200/Table of Content.md",
     "Untitled.canvas"
   ]
 }
