@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c000704a65d418a0",
+        "id": "20fb81eae18fe9cd",
         "type": "tabs",
         "children": [
           {
-            "id": "f1909316e0f4f25e",
+            "id": "9ba9e5b21b3c1979",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISYE 3770/Probability.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISYE 3770/Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISYE 3770/Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ISYE 3770/Probability.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +139,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1909316e0f4f25e",
+  "active": "9ba9e5b21b3c1979",
   "lastOpenFiles": [
+    "CS 2200/Datapath and Control.md",
+    "CS 2200/Combinational Logic.md",
+    "CS 3510/Big-O Notation.md",
+    "CS 2200/Arrays in Architecture.md",
+    "CS 2200/Addressing Mode.md",
+    "CS 2200/2024-08-22.md",
+    "ISYE 3770/Probability.md",
     "ISYE 3770/ISYE 3770 HW 2.pdf",
     "ISYE 3770 HW 2.pdf",
     "Homework 1.Rmd",
@@ -158,12 +158,9 @@
     "VIP/Kaggle Titanic Competition/knn_predictions.csv",
     "VIP/Kaggle Titanic Competition/knn-kaggle(79%).csv",
     "VIP/Kaggle Titanic Competition/knn (1).csv",
-    "VIP/Kaggle Titanic Competition/titanic-dataset.ipynb",
     "ISYE 3770/Permutations.md",
-    "ISYE 3770/Probability.md",
     "ISYE 3770/Counting.md",
     "ISYE 3770/Combinations.md",
-    "CS 2200/Datapath and Control.md",
     "CS 2200/Exam 1 Material.md",
     "CS 2200/Instruction Set.md",
     "CS 3510/Recurrence Relations.md",
@@ -190,10 +187,6 @@
     "Discrete Uniform.md",
     "Crowding Distance.md",
     "CS 3510/Closest Pair of Points.md",
-    "VIP/train_test_split().md",
-    "ISYE 3770/Distributions.md",
-    "ISYE 3770/Standard RV.md",
-    "ISYE 3770/Variance.md",
     "Untitled.canvas"
   ]
 }
