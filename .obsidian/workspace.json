@@ -1,34 +1,18 @@
 {
   "main": {
-    "id": "6e30f7785daa6237",
+    "id": "4b87f6c05288aecb",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "20fb81eae18fe9cd",
+        "id": "2982b015ff371397",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba9e5b21b3c1979",
+            "id": "869b0a89da84e46d",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
-=======
-        "id": "276f081e68224275",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e05f9a777398fe99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS 2200/Speedup.md",
-                "mode": "source",
-                "source": false
-              }
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
             }
           }
         ]
@@ -37,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bb66a102ed68f6b7",
+    "id": "0551e91a678d2946",
     "type": "split",
     "children": [
       {
-        "id": "f92ab2039c43a504",
+        "id": "b4175fd3d6328b55",
         "type": "tabs",
         "children": [
           {
-            "id": "2018d62dd27a44eb",
+            "id": "9f7c310d47620ceb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,16 +39,12 @@
             }
           },
           {
-            "id": "d5d099497f845bae",
+            "id": "0a3c94e7e94c33a4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "lw",
-=======
-                "query": "control signals",
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,38 +54,33 @@
             }
           },
           {
-            "id": "076dcf78e5603535",
+            "id": "75bc5fd155cb8ea9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "21a692b04967b30f",
+    "id": "93cc43d92f5f3fb1",
     "type": "split",
     "children": [
       {
-        "id": "cca848fc92694b2b",
+        "id": "52c7db892a7d92a0",
         "type": "tabs",
         "children": [
           {
-            "id": "6047edcc712c53cb",
+            "id": "73db93f0ab7eac8a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "CS 2200/Speedup.md",
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,22 +92,18 @@
             }
           },
           {
-            "id": "42b0a74650da1cb7",
+            "id": "b59be7d7459153e8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "CS 2200/Speedup.md",
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "fa615d8c6366dff2",
+            "id": "4d99f864013fea5a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,17 +114,11 @@
             }
           },
           {
-            "id": "b75e7297f1f180fd",
+            "id": "dfbb16af97d1f941",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
               "state": {}
-=======
-              "state": {
-                "file": "CS 2200/Speedup.md"
-              }
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
             }
           }
         ]
@@ -173,88 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "9ba9e5b21b3c1979",
-  "lastOpenFiles": [
-    "CS 2200/Datapath and Control.md",
-    "CS 2200/Combinational Logic.md",
-    "CS 3510/Big-O Notation.md",
-    "CS 2200/Arrays in Architecture.md",
-    "CS 2200/Addressing Mode.md",
-    "CS 2200/2024-08-22.md",
-    "ISYE 3770/Probability.md",
-    "ISYE 3770/ISYE 3770 HW 2.pdf",
-    "ISYE 3770 HW 2.pdf",
-    "Homework 1.Rmd",
-    "ISYE 3770/Homework 1.Rmd.Rmd",
-    "VIP/Kaggle Titanic Competition/knn6neighbors.csv",
-    "VIP/Kaggle Titanic Competition/knn6.csv",
-    "VIP/Kaggle Titanic Competition/knn.csv",
-    "VIP/Kaggle Titanic Competition/knn_predictions.csv",
-    "VIP/Kaggle Titanic Competition/knn-kaggle(79%).csv",
-    "VIP/Kaggle Titanic Competition/knn (1).csv",
-    "ISYE 3770/Permutations.md",
-    "ISYE 3770/Counting.md",
-    "ISYE 3770/Combinations.md",
-    "CS 2200/Exam 1 Material.md",
-    "CS 2200/Instruction Set.md",
-    "CS 3510/Recurrence Relations.md",
-    "CS 3510/Divide and Conquer Algorithm.md",
-    "CS 2200/Load and Store.md",
-    "CS 3510/Graph Traversal.md",
-=======
-  "active": "e05f9a777398fe99",
-  "lastOpenFiles": [
-    "VIP/scikit-learn.md",
-    "VIP/Kaggle Titanic Competition/train.csv",
-    "VIP/Kaggle Titanic Competition/titanic-dataset.ipynb",
-    "VIP/Kaggle Titanic Competition/test.csv",
-    "VIP/Kaggle Titanic Competition/knn6neighbors.csv",
-    "VIP/Kaggle Titanic Competition",
-    "VIP/Crowding Distance.md",
-    "ISYE 3770/Permutations.md",
-    "ISYE 3770/ISYE 3770 HW 2.pdf",
-    "ISYE 3770/Discrete Uniform.md",
-    "ISYE 3770/Counting.md",
-    "CS 3510/Problem Sets/Graphs.ipynb",
-    "CS 3510/Problem Sets/Figure 6 DAG.png",
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
-    "CS 3510/Problem Sets/Figure 5 Different Edge.png",
-    "CS 3510/Problem Sets/Figure 4 Nonconnect Example.png",
-    "CS 3510/Problem Sets/Figure 3 Traversal Recursion Tree.png",
-    "CS 3510/Problem Sets/Figure 2 Example Graph.png",
-    "CS 3510/Problem Sets/Figure 1 Directed Graph.png",
-    "CS 3510/Graph Traversal.md",
-    "CS 2200/Execution Time.png",
-    "CS 2200/Summary of Metrics.png",
-    "CS 2200/Processor Speed.png",
-    "CS 3510/Closest Pair Figure 1.png",
-    "CS 2200/Speedup.md",
-    "CS 3510/Master Theorem.md",
-    "CS 3510/Graph Algorithm Analysis.md",
-    "Depth First Search Analysis.md",
-    "ISYE 3770/Probability.md",
-    "ISYE 3770/Basic Counting.md",
-    "ISYE 3770/Set Theory.md",
-    "ISYE 3770/Standard RV.md",
-    "CS 3510/Problem Sets/Homework2.pdf",
-    "CS 2200/Datapath and Control.md",
-    "CS 2200/Projects/project-1/src/assembly/__pycache__/lc4000.cpython-311.pyc",
-    "CS 2200/Projects/project-1/src/assembly/__pycache__/lc3300.cpython-311.pyc",
-    "VIP/Multiple Objects in GA and GP.md",
-    "ISYE 3770/Variance.md",
-    "ISYE 3770/Distributions.md",
-    "Discrete Uniform.md",
-    "Crowding Distance.md",
-    "CS 3510/Problem Sets/Exam 1 Review.md",
-    "CS 3510/Closest Pair of Points.md",
-<<<<<<< HEAD
-=======
-    "CS 3510/Divide and Conquer Algorithm.md",
-    "CS 3510/Median.md",
-    "CS 3510/Recurrence Relations.md",
-    "CS 3510/Multiplication.md",
->>>>>>> 007a616dae977f5cb18cfcbf432ea201c3c1223c
-    "Untitled.canvas"
-  ]
+  "active": "869b0a89da84e46d",
+  "lastOpenFiles": []
 }
