@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2982b015ff371397",
+        "id": "110e4b4ce05d1670",
         "type": "tabs",
         "children": [
           {
-            "id": "869b0a89da84e46d",
+            "id": "e7db84bef3148701",
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -35,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -44,13 +48,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "subnet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,14 +64,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "93cc43d92f5f3fb1",
@@ -81,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS 2200/Demand Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Demand Paging"
             }
           },
           {
@@ -97,9 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS 2200/Demand Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Demand Paging"
             }
           },
           {
@@ -110,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +134,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS 2200/Demand Paging.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Demand Paging"
             }
           }
         ]
@@ -138,6 +158,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "869b0a89da84e46d",
-  "lastOpenFiles": []
+  "active": "e7db84bef3148701",
+  "lastOpenFiles": [
+    "MATH 3012 - Applied Combo/Week 1_1.pdf",
+    "ML Research/Bansal/Compositional Reinforcement Learning from Logical Specifications.md",
+    "MATH 3012 - Applied Combo/Set Theory and Functions.md",
+    "CS 2200/Screenshot 2024-12-11 at 2.22.18 AM.png",
+    "MATH 3012 - Applied Combo/Untitled",
+    "MATH 3012 - Applied Combo",
+    "README.md",
+    "CS 2200/Exam 5.md",
+    "High Frequency Trading (Avellaneda, 2006).md",
+    "CS 2200/Networking.md",
+    "ML Research/Bansal",
+    "ML Research/Untitled.md",
+    "ML Research",
+    "CS 2200/Exam 1 Material.md",
+    "CS 2200/Arrays in Architecture.md",
+    "CS 2200/File System Questions.md",
+    "CS 2200/File System.md",
+    "CS 3510/Big-O Notation.md",
+    "CS 2200/Screenshot 2024-12-11 at 9.27.55 AM.png",
+    "CS 2200/Screenshot 2024-12-11 at 9.27.14 AM.png",
+    "CS 2200/Routing Algorithms.md",
+    "CS 2200/Screenshot 2024-12-11 at 8.00.29 AM.png",
+    "CS 2200/Screenshot 2024-12-11 at 8.00.01 AM.png",
+    "CS 2200/Screenshot 2024-12-11 at 7.59.35 AM.png",
+    "CS 2200/Screenshot 2024-12-11 at 7.56.53 AM.png",
+    "CS 2200/Screenshot 2024-12-11 at 7.52.52 AM.png",
+    "CS 2200/Screenshot 2024-12-11 at 7.48.56 AM.png",
+    "CS 2200/Alias in OS.md",
+    "CS 2200/Screenshot 2024-12-11 at 7.40.14 AM.png",
+    "CS 2200/TCP vs UDP.md",
+    "VIP/Kaggle Titanic Competition/loosley_typed_gp.ipynb",
+    "ISYE 3770/Point Estimation.md",
+    "ISYE 3770/Distributions.md",
+    "ISYE 3770/Discrete Uniform.md",
+    "ISYE 3770/Counting.md",
+    "ISYE 3770/Confidence Interval Single Population.md",
+    "Interview Stuff/Engineering Manager Behavioral.md",
+    "CS 2200/Memory Hierarchy.md",
+    "VIP/SA-NAS_Notes/Neural Architecture Search (NAS).md",
+    "VIP/SA-NAS_Notes/NAS-FCOS Fast Neural Architecture Search for Object Detection.md",
+    "VIP/SA-NAS_Notes/Literature Review Notes.md",
+    "Interview Stuff",
+    "ISYE 3770/Homework/ISYE_3.pdf",
+    "ISYE 3770/Homework/ISYE 3770 HW 2.pdf",
+    "CS 4641/Untitled"
+  ]
 }

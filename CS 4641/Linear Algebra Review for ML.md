@@ -1,6 +1,6 @@
 ## Linear Algebra Basics
 ____
-- Linear Algebra represents and operates on sets of linear equations.
+-  Linear Algebra represents and operates on sets of linear equations.
 - For example, these two equations: $4x_1 -5x_2 = -13$  and  $-2x_1+3x_2=9$  can be represented using $Ax=b$, where $A=\begin{bmatrix}  4 & -5\\   -2 & 3 \end{bmatrix}$, $b=\begin{bmatrix}  -13\\  9 \end{bmatrix}$. 
 - $A \in \mathbb{R}^{n \times d}$ represents a matrix with $n$ rows and $d$ columns where elements belong to real numbers. For example, the $b$ matrix earlier would be $b \in \mathbb{R}^{2 \times 1}$. 
 - $x\in R^d$ denotes a vector with $d$ real entries. 
@@ -88,7 +88,7 @@ For a $2x2$ matrix $A= \begin{bmatrix} a & b \\ c & d \end{bmatrix}$, $|A|=ad-bc
 ## Eigen Values & Vectors
 ___
 Given a square matrix $A$ we say that $\lambda \in \mathbb{C}$ is an eigenvalue of $A$ and $x\in\mathbb{C}^d$ is an eigenvector if $Ax=\lambda x, x\neq0$. This means that multiplying the matrix A with a vector $x$ we get the same vector bur scaled by the eigenvalue. To find the **eigenvalue**, use this equation: $$det(A-\lambda I)=0$$ ![[Eigenvalue.png]]
-## Singular Value Decomposition (SVD)
+## [[Singular Value Decomposition]] (SVD)
 ____
 A SVD of a matrix is the factorization of the matrix into three matrix. The SVD of the matrix $A^{m \times n}$ is $A=U \Sigma V^T$ where:
 	$U$: $m \times m$ matrix of the orthonormal eigenvector of $AA^T$

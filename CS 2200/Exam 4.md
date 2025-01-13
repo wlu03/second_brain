@@ -1,0 +1,23 @@
+- All About Caches
+- Be able to identify and discern each of the cache miss types
+    - Cache Terminology
+    - What are each of the cache structure types?
+        - What is contained in a cache entry?
+        - Be able to discern the cache terminology from each other
+    - VI-PT Cache
+    - What makes this cache type so special?
+        - Be able to understand and compute bits for Page Coloring
+    - Cache Metrics
+    - Be able to compute EMAT
+        - Be able to compute the effective CPI
+        - Be able to compute the number of bits for tag/index/offset from pieces of cache/memory structure.
+- Threads and Processors
+- Be able to discern the differences between the Kernel level and the User Level
+    - Be able to identify the basic properties of threads
+    - What is the relationship between pthread_cond_wait and pthread_cond_signal like?
+    - How do we use them in a program?
+    - Multithreading Issues (deadlock, data race…)
+    - Why do we need atomic instructions for some checks?
+        - Know the differences and similarities between them.
+    - Cache Coherence (write-invalidate, write-update
+    - Be able to understand the concepts behind each protocol and why we need them.
