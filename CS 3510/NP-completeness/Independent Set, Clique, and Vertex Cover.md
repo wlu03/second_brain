@@ -1,0 +1,6 @@
+# Independent Set
+For a given graph with vertex set $V$ and edge set $E$ a subset of vertices $I ⊆ V$ is independent if there is no edge between any two vertices in the subset. Lets look at some examples where finding an independent set is simple![[Independent Set.png]]
+Finding an independent set for a graph in general is really hard and is NP-complete problem. 
+$$INDEPDENT-SET =\{ (G,g) | \text{ G has an independent set of size g}\}$$ First we show that $INDEPENDENT-SET \in NP$. We will define a verifier that takes in as input a problem (G, g) and a witness $(v_1,..,v_k)$ where G is a graph, g is an integer, and a set of subset of vertices. We first check that $k=g$. We then check for each pair of distinct vertices $v_i,v_j \in \{v_1...v_k \}$ that there does not exist an edge between them. If both of these checks pass, then we can return true. Else we return false. Since these checks take polynomial time, we have a polynomial verifier and can therefore conclude that $INDEPENDENT-SET \in NP$. 
+
+I will show that $INDEPENDENT-SET$ is $NP-Hard$. We will reduce from the 3SAT problem. S

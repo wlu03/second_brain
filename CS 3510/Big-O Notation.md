@@ -49,7 +49,7 @@ ____
 	j. $f(n)=(\log n)^{\log n}, \space g(n)=n/\log n$
 		Assuming that $1/ \log n$ is a constant then $n$ would grow bigger than any logarithm. Therefore $f<g$ where $f=O(g)$.
 	k. $f(n)=\sqrt{n}, \space (\log n)^3$
-		Generally, any polynomial dominates any logarithm. Therefore $f>g$ where $f=\Omega (g)$.
+		Generally, any polynomial dominates any logarithm. Therefore $f>g$ where $f=\Omega (g)$. 
 	l. $f(n)=n^{1/2}, \space 5^{\log _2 n}$ 
 		Any exponential dominates any polynomial. Therefore $f<g$ where $f=O(g)$ 
 	m. $f(n)=n2^n, \space g(n)=3^n$
@@ -88,4 +88,4 @@ ____
 	b. Find a constant $c<1$ such that $F_n \le 2^{cn}$ for all $n\ge0$. 
 		
 	c. What is the largest $c$ you. can find for which $F_n=\Omega (2^{cn})$?
-	   
+

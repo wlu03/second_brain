@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"e1ca685c85bf8788","type":"text","text":"Resume Upload / Form (Data Parsing)","x":-125,"y":-140,"width":285,"height":80},
+		{"id":"10644c173cdc2caa","type":"text","text":"User Dashboard\n- Job Application Table\n- Screenshots / Calendar\n- Purchase Credits\n- Hyperlink to OAs","x":-156,"y":0,"width":347,"height":200},
+		{"id":"2593e691f830e903","type":"text","text":"Payment/Credit Service\n- Use Stripe","x":-110,"y":260,"width":256,"height":100},
+		{"id":"d725fc612083d70f","type":"text","text":"MONGODB","x":302,"y":-130,"width":138,"height":60},
+		{"id":"b7a9da8bc9390ccd","type":"text","text":"Job Application Process","x":-480,"y":70,"width":250,"height":61},
+		{"id":"10664caf61db91db","type":"text","text":"Fill out interest companies","x":-480,"y":-30,"width":250,"height":60},
+		{"id":"974b85e59c5ada2f","type":"text","text":"Selenium Automation\n- Autofill Applications\n- Screenshots\n- Store Data in DB","x":-480,"y":-214,"width":265,"height":143},
+		{"id":"eb0254dc1363b7ae","type":"text","text":"LangChain/AI Service\n- Generate Personalized Email based on best match in DB","x":-480,"y":-480,"width":250,"height":140},
+		{"id":"70c37b75781377ec","type":"text","text":"Database to store all linkedin users. Use search/match algorithm to find the best people to email given the job positing","x":560,"y":-130,"width":275,"height":194}
+	],
+	"edges":[
+		{"id":"eed864415b59aadc","fromNode":"e1ca685c85bf8788","fromSide":"bottom","toNode":"10644c173cdc2caa","toSide":"top"},
+		{"id":"b9f6c5462eb7afdd","fromNode":"10644c173cdc2caa","fromSide":"bottom","toNode":"2593e691f830e903","toSide":"top"},
+		{"id":"9654481951f93235","fromNode":"e1ca685c85bf8788","fromSide":"right","toNode":"d725fc612083d70f","toSide":"left"},
+		{"id":"58e0943e52e085de","fromNode":"10644c173cdc2caa","fromSide":"right","toNode":"d725fc612083d70f","toSide":"bottom"},
+		{"id":"9082966c69e9d888","fromNode":"10644c173cdc2caa","fromSide":"left","toNode":"b7a9da8bc9390ccd","toSide":"right"},
+		{"id":"2746b98f14599310","fromNode":"10664caf61db91db","fromSide":"bottom","toNode":"b7a9da8bc9390ccd","toSide":"top"},
+		{"id":"b43ffa8e33f464e4","fromNode":"974b85e59c5ada2f","fromSide":"left","toNode":"b7a9da8bc9390ccd","toSide":"left"},
+		{"id":"54b44f7690a749a1","fromNode":"974b85e59c5ada2f","fromSide":"top","toNode":"d725fc612083d70f","toSide":"top"},
+		{"id":"47cfff4ad2b5893a","fromNode":"eb0254dc1363b7ae","fromSide":"bottom","toNode":"974b85e59c5ada2f","toSide":"top"},
+		{"id":"62cfd4db70fe70a0","fromNode":"70c37b75781377ec","fromSide":"left","toNode":"d725fc612083d70f","toSide":"right"}
+	]
+}

@@ -1,0 +1,104 @@
+**Terminology**: 
+- A vertex of degree 0 is called a isolated vertex and a vertex of degree 1 is a leaf.
+- **maximum degree** of G is $\Delta G$ 
+- **minimum degree** of G is $\delta G$ 
+- Handshaking Lemma states that in graph theory if you add up the degrees of all vertices in a graph you get exactly twice the number of edges. $\sum_{v \in V} deg_G(v) = 2\cdot |E|$ 
+	- Example problem: if 10 ppl shake hands with each other, how many handshakes took place? 45. Each person has a degree of 9. So the sum of all degrees is $10 \times 9=90$. $\sum deg(v)=2\times |E|$ where $90=2\times |E|$ where $|E| =45$ 
+- Corollary: the number of vertices of odd degree in any graph is even. 
+- **Degree Sequence** of a graph is the list of degrees of all the vertices of the graph
+	- Degree sequences should be in non-increasing order
+- **Complete graph** is a graph that any two distinct vertex has an edge, often called a **clique**. How many edges in a complete graph $K_n = \binom{n}{2}$
+	- Given two graphs: $G_1=(V_1,E_1), G_2=(V_2, E_2)$. We say that $G_1$ is a subgraph of $G_2$ iff
+		- $V_1​⊆V_2$
+		- $E_1 ​⊆ E_2$ 
+	- A **spanning subgraph** is a special case of a subgraph where we take all the vertices of the larger graph: 
+		- $G_1$ is a spanning subgraph of $G_2$ if $V_1=V_2$ and $E_1 ​⊆ E_2$. 
+	- An **induced subgraph** is one that not only takes a subset of vertices but must also include all edge between those chosen vertices that were present in the larger graph.
+		- $G_1$ is an induced subgraph of $G_2$ if $V_1​⊆V_2$ and any edge in $G_2$ that connects two vertices in $V_1$ must be in $E_1$  
+# Topics:
+## Part 1 (about 10 points)
+- Planarity
+	- A graph is **bipartite** if its vertex set $V$ can be partitioned into two disjoint sets $X$ and $Y$ such that every edge in $E$ has one endpoint in $X$ and the other in $Y$. In other words, there are no edges between vertices within $X$ or $Y$. 
+	- A **complete graph** $K_n$ is a graph with $n$ vertices in which every pair of distinct vertices is connected by an edge
+	- A **complete bipartite graph** $K_{m,n}$ is a bipartite graph where every vertex in one part $X$ is adjacent to every vertex in the other part Y where $|X|=m,|Y|=n$.
+
+	- A graph $G$ is planar if it can be drawn so that none of its edges cross.![[Screenshot 2025-04-16 at 4.01.11 AM.png | 400]]
+	- When a planar graph is drawn without edges crossing, the edges and vertices of the graph divide the plane into regions. We call each region a face. ![[Screenshot 2025-04-16 at 4.05.00 AM.png | 200]]
+	- This graph has 4 faces. 
+		- The outer region surrounding the entire figure
+		- The 2 interior of the square bounded by a-b-c-d
+		- The cap region bounded by a-d, d-c, and a-c
+	- Euler's Formula: For any connected planar graph with $v$ vertices, $e$ edges, and $f$ faces we have $v-e+f=2$.
+	
+- [[Graph Isomorphisms]]
+- Homeomorohisms
+	- A subdivision of an edge $\{u,v\}$ in a graph means you remove the edge and replace with a "path" of length 2 by introducing a new vertex connecting $u-w$ and $w-v$. A subdivision of a graph $G$ is a new graph you get by performing this operation on edges of $G$.
+	- Two graphs $G$ and $H$ are said to be homemorphic if there exists a graph $K$ such that both $G$ and $H$ can be obtained as subdivision of $K$.
+	- If a graph G contains nonplanar subgraph, then G is nonplanar. 
+## Part 2 (about 10+ points)
+- Properties of trees
+	- A graph is a tree if and only if there is exactly one path between any distinct vertices
+	- Let G be a graph of order n (n vertices) and size m (m edges). If G satisfies any two of the following three properties, then G is a tree. 
+		- G is connected
+		- G has no cycle (G is acyclic)
+		- $m=n-1$
+	- Let $T_n$ be the number of trees with vertex set and call each such tree labeled tree on $n$ vertices. 
+		- Labeled trees on $n$ vertices is a tree where each vertex is distinctly labeled from the set $\{1,2,..,n\}$
+		- For instance, if $n=3$, can label the vertices as 1, 2, and 3. 
+		- $T_1=1$ There is only one vertex
+		- $T_2=1$ There is only one way to connect them with a single edge between 1 and 2.
+		- $T_3=3$ 
+		- $T_4=16$
+		- General formula: $T_n=n^{n-2}$ 
+		- Every labeled tree $T$ with $n$ vertices can be uniquely represented as a sequence of length $n-2$ as a Prufer code.
+- [[Prufer Codes]]
+- Minimum spanning trees 
+	- When $G$ is a connected graph, a subgraph $H$ of $G$ is called a **spanning tree** if $H$ is a spanning subgraph of $G$ and $H$ is a tree.
+	- The DFS algorithm is used to find the spanning tree. 
+		- Start at a chosen vertex and mark as visited
+		- Recursively visit each unvisited neighbor
+		- Backtrack when no more neighbors are available
+	- The BFS algorithm:
+		- Start at a chosen vertex and mark as visited
+		- Visit all unvisited neighbors before proceeding to the next level 
+		- Recursively apply the process to each neighbor at the current level before moving deeper 
+	- MST
+		- A weighted graph is a graph where every edge is assigned a weight. A MST is a spanning tree with minimum total weight.
+		- Kruskals
+			- Start with an edge of minimum weight
+			- Among the remaining edge choose on with minimum weight and avoid cycles 
+			- If we obtain $n-1$ edges stop other wise continue
+		- Prim's Algorithm 
+			- Pick a vertx. 
+		- Kruskals is good for sparse graphs and works on disconnected graphs 
+		- Prims is efficient and faster on dense graphs
+## Part 3 (about 10+ points)
+- Euler and Hamilton
+	- In a connected graph/multigraph a circuit that traverses each edge exactly once is an **Euler's Circuit**. If thee is an open trail from a to b and this trail traverse each edge in G exactly once, this trail is called an **Euler's Path**.
+	- G has an Euler's Circuit if and only if every vertex of G has an even degree.
+- $G$ has a Euler Trail if and only if $G$ has exactly two vertices of odd degree.
+- A graph has a Hamiltonian cycle if there is a cycle in $G$ that visits every vertex exactly once. A Hamiltonian path also visits every vertex once.
+	- If you have a hamiltonian cycle, you will have a hamiltonian path. This is because you can remove the edge connecting the circuit and get the path. 
+- In a graph $G$ on $n$ vertices, for every pair of distinct vertices $x,y$ the sum of their degrees is at least $n-1$, then $G$ has a Hamiltonian cycle. For every pair of distinct non-adjacent vertices $x,y$ the sum of their degrees is at least $n$, then $G$ has a Hamiltonian cycle. 
+## Part 4 (about 15 points)
+- Coloring / Chromatic Numbers
+	- Given a graph $G$, a coloring of vertices is called a vertex coloring. If the vertex coloring has the property that adjacent vertices are color differently, then the coloring is **proper**. The smallest number of colors needed to get a proper coloring is called the **chromatic number** of a graph. 
+		- $x(G)$ 
+		- $x(K_n)=n$
+		- $x(K_{m,n})=2$
+	- If G is a planar graph, then the chromatic number $x(G)\le 4$ 
+	- A graph $G$ is said to be $k$-colorable if there exists a proper coloring of $G$ using at most $k$ distinct colors. 
+	- $χ(G)=2$ if bipartite 
+	- For cycle graphs
+		- if $n$ is **even**, $C_n$ is bipartite,  so $χ(C_n)=2$
+		- if $n$ is **odd**, $C_n$ is not bipartite, so $χ(C_n)=3$
+- Chromatic polynomial
+	- The chromatic polynomial of a graph $G$ is the number of ways of properly coloring the vertices of G using $\lambda$ colors.
+	- **Completed Graphs $G=K_n$**: $P(G,\lambda)=\lambda(\lambda -1)(\lambda -2) ...(\lambda - n+ 1)$ 
+	- G is a path of $n$ vertices: $P(G,\lambda)= \lambda (\lambda - 1)^{n-1}$ 
+	- Chromatic Polynomial for a cycle: $$P(C_n,\lambda)=(\lambda -1)^n+(-1)^n(\lambda-1)$$
+	- If G is made up of components $G_1,G_2,...,G_k$ then $$P(G,\lambda)=P(G_1,\lambda)\cdot P(G_2,\lambda) \cdot \cdot \cdot P(G_k,\lambda) $$
+	- Deletion Contraction Recursion
+		- Let $e$ be an edge in the simple graph $G$. Let $G-e$ be the graph obtained by removing $e$ and $G/e$ be the graph shrinking $e$ to a single vertex.![[Screenshot 2025-04-16 at 5.03.15 AM.png]]
+		- Given an edge $e$ in graph G, we have $$P(G,\lambda)=P(G-e,\lambda)-P(G/e,\lambda)$$![[Screenshot 2025-04-16 at 5.04.11 AM.png]]
+		- 

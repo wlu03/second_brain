@@ -1,0 +1,1 @@
+There is a type called `Num` where instance are `Int`, `Signed` 16, `Index` 32, and `Float`.  If we impose a variable to have a `Num`ber type, then it should support the operations `+,-,*` and some others. A function is **polymorphic** when it supports many different *types*.
